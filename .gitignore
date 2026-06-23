@@ -1,0 +1,61 @@
+# =========================
+# General
+# =========================
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS Files & IDE
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Backend (NestJS)
+# =========================
+coverage/
+.nest/
+
+# =========================
+# Frontend (Vite/React)
+# =========================
+dist-ssr/
+*.local
+
+# =========================
+# Local AI & Media
+# =========================
+uploads/
+models/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.srt
+*.safetensors
+*.pt
+*.bin
